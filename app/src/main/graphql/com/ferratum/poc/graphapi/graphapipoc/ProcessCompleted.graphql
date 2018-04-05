@@ -1,0 +1,3 @@
+mutation processComplete($stepId: String!) {
+    processCompleteStep (type:ONBOARDING_PROCESS, stepId: $stepId, responseObjectName: "noObjectNeeded",data: "")
+}

@@ -1,0 +1,3 @@
+mutation processStart($jsonobject: JSON!) {
+    processStart(type : ONBOARDING_PROCESS, name : "POC_MyAccountApplication", parameters : $jsonobject )
+}

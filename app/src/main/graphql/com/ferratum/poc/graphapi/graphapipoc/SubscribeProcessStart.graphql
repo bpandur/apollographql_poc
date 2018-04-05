@@ -1,0 +1,20 @@
+subscription ProcessStartedSubscription($processUid: String!) {
+    process(processUid: $processUid) {
+process {
+processName
+}
+steps {
+stepID
+}
+action {
+userTaskUid
+components {
+attributes {
+attributeName
+value
+mandatory
+}
+}
+}
+}
+}
